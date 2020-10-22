@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-title>
+      Title 
+    </ion-title>
+  </ion-toolbar>
+  <ion-toolbar>
+    <ion-searchbar></ion-searchbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-button expand="block" color="danger" (click)="showLoading()">Click Me Loading</ion-button>
+  <ion-button expand="block" color="danger" (click)="showToast()">Click Me Toast</ion-button>
+
+  <ion-button expand="block" color="danger" (click)="showAlert()">Click Me Alert</ion-button>
+  <ion-button expand="block" color="danger" href="/property/1234">href to page Property</ion-button>
+  <ion-button expand="block" color="danger" (click)="gotoProperty()">Go to page Property</ion-button>
+
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar color="warning">
+    <ion-title>
+      Contact us 
+    </ion-title>
+  </ion-toolbar>
+</ion-footer>

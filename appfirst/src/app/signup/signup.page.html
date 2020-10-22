@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar color="danger">
+    <ion-title>Create an Account</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+<ion-list>
+  <ion-item>
+  <ion-label position="stacked">Email</ion-label>
+  
+  <ion-input type="email" placeholder="mail@gmail.com" [(ngModel)]="email"></ion-input>
+</ion-item>
+<ion-item>
+  <ion-label position="stacked">Password</ion-label>
+  
+  <ion-input type="Password" placeholder="1234" [(ngModel)]="password"></ion-input>
+</ion-item>
+<ion-button expand="block" color="danger" (click)="signup()">Signup</ion-button>
+</ion-list>
+</ion-content>

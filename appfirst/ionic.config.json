@@ -1,0 +1,8 @@
+{
+  "name": "todoup",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}
